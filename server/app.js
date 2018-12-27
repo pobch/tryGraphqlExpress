@@ -4,6 +4,8 @@ const schema = require('./schema/schema')
 
 const app = express()
 
+// mongodb://pob:test123@ds119523.mlab.com:19523/try-graphql
+
 app.use('/graphql', graphqlHTTP({
   graphiql: true,
   schema
